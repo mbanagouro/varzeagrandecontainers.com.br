@@ -159,10 +159,10 @@ img { max-width: 100%; display: block; }
   margin: 0 0 24px;
 }
 .hero-highlight {
+  display: inline-block;
   background: var(--accent);
-  padding: 0 10px;
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
+  padding: 4px 10px;
+  line-height: 1.15;
 }
 .hero-desc {
   font-size: 19px;
