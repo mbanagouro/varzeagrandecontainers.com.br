@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(git check-ignore *)",
+      "Bash(echo \"exit=$?\")",
+      "Bash(awk '{print $5, $9}')",
+      "WebFetch(domain:sorrisocontainers.com.br)",
+      "Bash(python -m http.server 8899)",
+      "Bash(curl -s -o nul -w \"%{http_code}\" http://localhost:8899/)",
+      "Bash(curl -s http://localhost:8899/)",
+      "Bash(findstr /C:\"unidade-cidade\" /C:\"07 — Contato\" /C:\"06 — Unidades\")",
+      "Bash(python -)",
+      "Bash(curl *)",
+      "Bash(python -c ' *)"
+    ]
+  },
+  "enabledPlugins": {
+    "frontend-design@claude-plugins-official": true
+  }
+}
