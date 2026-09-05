@@ -9,6 +9,7 @@
   --border: #E7E5DD;
   --header-bg: #0A2647;
   --card-border: #22304C;
+  --header-h: 88px;
 }
 
 html { scroll-behavior: smooth; }
@@ -38,7 +39,7 @@ img { max-width: 100%; display: block; }
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 32px;
-  height: 76px;
+  height: var(--header-h);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -50,7 +51,7 @@ img { max-width: 100%; display: block; }
   text-decoration: none;
   flex: none;
 }
-.logo-img { height: 52px; width: auto; }
+.logo-img { height: 64px; width: auto; }
 .nav { display: flex; align-items: center; gap: 28px; font-size: 15px; font-weight: 500; }
 .nav-link { text-decoration: none; color: #C3CBDA; transition: color .2s; }
 .nav-link:hover { color: #FFFFFF; }
@@ -593,7 +594,7 @@ img { max-width: 100%; display: block; }
 @media (max-width: 768px) {
   .nav {
     position: fixed;
-    top: 76px;
+    top: var(--header-h);
     left: 0;
     right: 0;
     background: var(--header-bg);
@@ -628,6 +629,7 @@ img { max-width: 100%; display: block; }
 }
 
 @media (max-width: 480px) {
+  :root { --header-h: 76px; }
   .header-inner { padding: 0 16px; }
   .hero-inner { padding: 40px 16px 56px; }
   .hero-title { font-size: 34px; }
@@ -650,6 +652,6 @@ img { max-width: 100%; display: block; }
   .unidade-mapa-wrap { height: 200px; }
   .container { padding: 0 16px; }
   .section-title { font-size: 32px; }
-  .logo-img { height: 40px; }
+  .logo-img { height: 48px; }
   .contato-logo { height: 88px; margin-bottom: 22px; }
 }
