@@ -51,7 +51,7 @@ img { max-width: 100%; display: block; }
   text-decoration: none;
   flex: none;
 }
-.logo-img { height: 64px; width: auto; }
+.logo-img { height: 80px; width: auto; }
 .nav { display: flex; align-items: center; gap: 28px; font-size: 15px; font-weight: 500; }
 .nav-link { text-decoration: none; color: #C3CBDA; transition: color .2s; }
 .nav-link:hover { color: #FFFFFF; }
@@ -652,6 +652,6 @@ img { max-width: 100%; display: block; }
   .unidade-mapa-wrap { height: 200px; }
   .container { padding: 0 16px; }
   .section-title { font-size: 32px; }
-  .logo-img { height: 48px; }
+  .logo-img { height: 60px; }
   .contato-logo { height: 88px; margin-bottom: 22px; }
 }
